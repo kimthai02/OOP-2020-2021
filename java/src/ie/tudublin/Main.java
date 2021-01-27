@@ -24,7 +24,12 @@ public class Main
 
         // 1. topcat, Garfield
         // 2. garfield, Garfield 
+        
+        Cat ginger = new Cat("Ginger");
 
+        while(ginger.getLives()>= 0){
+            ginger.kill();
+        }
 
     }
 } 
